@@ -478,7 +478,7 @@ h6 {
 }
 .section-title h1 {
   font-size: 32px;
-  font-weight: 300;
+  font-weight: 700;
   color: rgba(255, 255, 255, 0.644);
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -861,6 +861,13 @@ h6 {
   font-family: "Satisfy", cursive;
   font-size: 60px;
 }
+
+@media (max-width: 768px) {
+  .about .card h3 {
+    font-size: 40px;
+  }
+}
+
 .about .card p {
   color: rgba(255, 255, 255, 0.644);
 }
